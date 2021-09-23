@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+
+body{
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+    background-position-y: -135px;
+    font-family: 'Jura', sans-serif;
+
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+.left{
+    width: 300px;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+a{
+    color: white;
+}
+
+
+a:hover,.right li a:hover{
+    color: black;
+    transition: 1s;
+
+}
+
+.right{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    position: absolute;
+    right: 60px;
+    top: 6px;
+    background-color:rgb(255, 0, 0);
+}
+
+.right li a{
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    font-size: 1.3rem;
+}
+ul li a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+}
+
+.container-1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 4.5rem;
+    font-family: 'Jura', sans-serif;
+    transform: rotate(90deg);
+    
+}
+
+.text:hover{
+    transform: rotate(-90deg);
+    transition:2s;
+    transition-timing-function: ease-in-out;
+    color: blue;
+  
+}
+
+.container-2{
+    width: 50%;
+    height: 100vh;
+    background-image: url(./assets/main.jpg);
+    background-position: center;
+    background-size: cover;
+}
